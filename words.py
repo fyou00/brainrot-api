@@ -1,298 +1,987 @@
-BRAINROT = {
-    "skibidi": {
-        "definition": "A universal vibe check term that can mean either cool or cringe, depending on context.",
-        "example": "That dance move was straight-up skibidi-dop yes yes!"
-    },
-    "gyatt": {
-        "definition": "A word shouted in awe when someone's presence or appearance mogs the competition.",
-        "example": "When Livee Dunn walked in, I couldn't help but say 'GYATT!'"
-    },
-    "rizz": {
-        "definition": "The unspoken art of charisma and flirting—an essential grindset skill.",
-        "example": "Kai Cenat has maxed out his rizz stat."
-    },
-    "abg": {
-        "definition": "Asian Baby Girl; a type of girl known for rocking heavy makeup, acrylic nails, and skibidi-level fashion, often mogging the scene.",
-        "example": "That ABG just walked in, and everyone said 'GYATT!' at once."
-    },
-    "zesty": {
-        "definition": "Extra sassy or flamboyant, usually dripping in vibes.",
-        "example": "Bro's fit is zesty AF, mogging everyone at the party."
-    },
-    "mid": {
-        "definition": "Average, not bad but definitely not skibidi.",
-        "example": "That Grimace shake? Highkey mid, not bussin' like I hoped."
-    },
-    "ratio": {
-        "definition": "When someone replies to your post and their comment gets more likes than the original. A moggy way to flex.",
-        "example": "Got ratio'd for the fifth time today, blud, I'm down bad."
-    },
-    "oomf": {
-        "definition": "One of my followers; used in a spicy or cryptic way.",
-        "example": "Oomf just posted the most sus TikTok; can’t believe my timeline is this cringe."
-    },
-    "npc": {
-        "definition": "A person who moves through life like a background character, zero main-character energy.",
-        "example": "Bro's just standing there like an NPC while the rizz fest happens."
-    },
-    "bbg": {
-        "definition": "Short for 'baby girl'; often ironic or zesty.",
-        "example": "BBG, why you acting so sussy baka today?"
-    },
-    "yeet": {
-        "definition": "To throw something with reckless abandon, sometimes metaphorically.",
-        "example": "I yeeted that Grimace shake into the trash 'cause it was cursed."
-    },
-    "shmacked": {
-        "definition": "Extremely tired, messed up, or out of it.",
-        "example": "After gooning all night, I'm shmacked AF."
-    },
-    "kys": {
-        "definition": "Keep yourself safe; an ironic remix of a darker meaning.",
-        "example": "Bro, that fit is so sus I'm about to say kys (keep yourself safe)."
-    },
-    "delulu": {
-        "definition": "Short for delusional, often in a zesty, chaotic way.",
-        "example": "Pranav thinking he's tapped in? That's pure delulu energy."
-    },
-    "slay": {
-        "definition": "To dominate or succeed at something in the most moggy way possible.",
-        "example": "Ice Spice slayed her verse, no cap."
-    },
-    "drip": {
-        "definition": "Your fit or style; must be bussin' to qualify.",
-        "example": "Bro's drip is on level 99 skibidi vibes."
-    },
-    "glow up": {
-        "definition": "A major mog-worthy transformation, often in looks or vibes.",
-        "example": "That mewing glow-up is unreal, bro's jawline could cut steel."
-    },
-    "riz up": {
-        "definition": "To flirt successfully or flex charisma.",
-        "example": "Baby Gronk rizzy'd up Livee Dunn and became the new Top G."
-    },
-    "brick": {
-        "definition": "Extremely cold outside or when something just feels raw.",
-        "example": "It's brick out here, but I'm still mogging in my drip."
-    },
-    "yassified": {
-        "definition": "When something or someone is overly glamorous, exaggerated, or campy.",
-        "example": "Bro's yassified like a Sims character with all sliders maxed out."
-    },
-    "griddy": {
-        "definition": "The dance that became a moggy cultural phenomenon.",
-        "example": "Bro hit the Griddy so hard, he mogged everyone on TikTok."
-    },
-    "litty": {
-        "definition": "Extremely fun, exciting, or high-energy.",
-        "example": "This Grimace shake party is litty; blud, we out here mogging."
-    },
-    "sus vibes": {
-        "definition": "When the energy is off, sketchy, or weirdly impostor-like.",
-        "example": "That subway surfer in the corner is giving sus vibes."
-    },
-    "boofed": {
-        "definition": "Something bad, cursed, or just straight-up cringe.",
-        "example": "Pranav's fanum tax take was so boofed I almost ratio'd him IRL."
-    },
-    "sigma":  {
-        "definition": "The lone wolf grindset mentality of ignoring the herd and staying focused on self-made mogging.",
-        "example": "Bro skipped the party to work on his mewing—pure sigma grindset energy."
-    },
-    "alpha": {
-        "definition": "The top-of-the-pack energy; a natural mogger who dominates the room with highkey confidence.",
-        "example": "When DJ Khaled walked in shouting 'Another one,' that was pure alpha energy."
-    },
-    "beta": {
-        "definition": "The opposite of alpha—a vibe that screams hesitation, self-doubt, or cringe energy.",
-        "example": "Bro didn't even hit the Griddy at the party. That's straight beta behavior."
-    },
-    "omega": {
-        "definition": "The quiet underdog who operates under the radar but occasionally mogs everyone.",
-        "example": "Bro stayed in the corner the whole night but still pulled off a sigma-level move—omega energy."
-    },
-    "grindset": {
-        "definition": "The relentless pursuit of success, often at the expense of fun or socializing.",
-        "example": "Skipping the party to work on your startup? That's pure grindset mentality."
-    },
-    "amogus": {
-        "definition": "A cursed pronunciation of 'Among Us,' used to invoke sus energy.",
-        "example": "Every time I hear 'Amogus,' I see a vent and get PTSD."
-    },
-    "imposter": {
-        "definition": "Someone pretending to be something they're not; ultimate sus vibes.",
-        "example": "Bro's trying to mog the fit check, but he's just an imposter."
-    },
-    "sussy": {
-        "definition": "Extra suspicious behavior, sometimes playful and chaotic.",
-        "example": "Why you acting so sussy with that Grimace shake, bro?"
-    },
-    "impostor": {
-        "definition": "The classic sus figure in Among Us memes; synonymous with deceit.",
-        "example": "The impostor is giving off brick-level vibes today."
-    },
-    "suspect": {
-        "definition": "Sketchy or questionable; another way to say 'sus.'",
-        "example": "That Subway Surfer gamer? Highkey suspect vibes."
-    },
-    "gooning": {
-        "definition": "Hyper-focus on an activity or obsession to the point of chaotic indulgence.",
-        "example": "Bro's been gooning over his K-pop playlist all week."
-    },
-    "goon": {
-        "definition": "Someone who embodies chaotic focus, often in a humorous way.",
-        "example": "He's such a goon for Subway Surfers lore, it's wild."
-    },
-    "gooner": {
-        "definition": "An advanced state of gooning, where mogging reality is the only goal.",
-        "example": "The gooner squad is still edging on those Among Us mods."
-    },
-    "kpop": {
-        "definition": "A global music phenomenon mogging every other genre into oblivion.",
-        "example": "That K-pop group's stage presence? Pure sigma grindset."
-    },
-    "boomer": {
-        "definition": "Someone stuck in outdated vibes; often cringe but harmless.",
-        "example": "That boomer still thinks 'dab' is cool. Sad."
-    },
-    "doomer": {
-        "definition": "A nihilistic vibe, often paired with existential memes.",
-        "example": "The doomer energy is strong when the Grimace shake hits at 3 AM."
-    },
-    "zoomer": {
-        "definition": "The Gen Z mogs who bring chaos and skibidi vibes wherever they go.",
-        "example": "Zoomers turned Subway Surfers into a cultural icon. Respect."
-    },
-    "gloomer": {
-        "definition": "A pessimistic outlook combined with existential chill vibes.",
-        "example": "Gloomer energy hits hard during midnight mewing sessions."
-    },
-    "copium": {
-        "definition": "The imaginary drug taken to cope with harsh truths or Ls.",
-        "example": "Bro's on pure copium after getting ratio'd for his fanum tax take."
-    },
-    "cope": {
-        "definition": "The act of rationalizing or making excuses to deal with a loss.",
-        "example": "The dude's coping hard after getting mogged in Among Us."
-    },
-    "seethe": {
-        "definition": "The act of being visibly upset while trying to mog through it.",
-        "example": "He's seething after seeing that sigma glow-up."
-    },
-    "mald": {
-        "definition": "A mix of mad and balding; used for someone losing their cool.",
-        "example": "Bro's malding after I called his drip mid."
-    },
-    "cringe": {
-        "definition": "Anything that induces secondhand embarrassment or sus energy.",
-        "example": "That NPC energy during the TikTok challenge was so cringe."
-    },
-    "based": {
-        "definition": "A term for being unapologetically authentic or moggy.",
-        "example": "That statement about the Grimace shake being sus was based."
-    },
-    "redpilled": {
-        "definition": "A term for being awakened to deeper truths, often in moggy ways.",
-        "example": "He got redpilled on why Livee Dunn mogs everyone."
-    },
-    "bluepilled": {
-        "definition": "Remaining blissfully unaware or in denial; the opposite of redpilled.",
-        "example": "Still thinking Baby Gronk isn't the next big thing? That's bluepilled."
-    },
-    "blackpilled": {
-        "definition": "Embracing the gloomer mindset of pure nihilism.",
-        "example": "Bro's on the blackpill grindset, only focusing on gooning now."
-    },
-    "blud": {
-        "definition": "UK slang for 'bro,' often used to clown someone in a moggy way.",
-        "example": "Blud really thinks he's the Top G of Grimace shakes."
-    },
-    "dawg": {
-        "definition": "Another way to say 'bro' or 'homie,' but with extra skibidi energy.",
-        "example": "Dawg, why you still playing Among Us in 2024?"
-    },
-    "ishowspeed": {
-        "definition": "A chaotic Twitch streamer who embodies skibidi-dop yes yes energy.",
-        "example": "That stunt was so wild, it was straight-up IShowSpeed vibes."
-    },
-    "bussing": {
-        "definition": "Something exceptionally good or tasty.",
-        "example": "This Grimace shake is bussin' harder than Baby Gronk."
-    },
-    "poggers": {
-        "definition": "Extreme hype, usually in gaming or meme culture.",
-        "example": "That double kill in Among Us? Straight-up poggers."
-    },
-    "glizzy": {
-        "definition": "Slang for a hot dog, often used in sus or moggy contexts.",
-        "example": "Bro ate a glizzy in two bites. Straight sussy vibes."
-    },
-    "thug": {
-        "definition": "A bold, fearless person, often mogging others in their presence.",
-        "example": "Ice Spice's verse gave her certified thug energy."
-    },
-    "slatt": {
-        "definition": "Slang for 'Slime Love All the Time,' often used as a hype term.",
-        "example": "Slatt vibes only—this Grimace shake party is litty!"
-    },
-    "twin": {
-        "definition": "Someone who matches your vibe; a close friend or moggy homie.",
-        "example": "That's my twin right there, always grinding on Subway Surfers."
-    },
-    "highkey": {
-        "definition": "Something that's obvious or undeniable.",
-        "example": "This party is highkey sus but bussin at the same time."
-    },
-    "lowkey": {
-        "definition": "Something subtle or understated but still relevant.",
-        "example": "Lowkey, Baby Gronk is the next Top G."
-    },
-    "bbc": {
-        "definition": "A term loaded with chaos, often used in skibidi meme culture.",
-        "example": "Don't ask why the BBC memes hit so hard; it's a vibe."
-    },
-    "rawdogging": {
-        "definition": "Doing something with zero preparation or safety nets.",
-        "example": "He's rawdogging life without a grindset plan. Respect."
-    },
-    "top g": {
-        "definition": "The ultimate alpha, mogging everyone with confidence and power.",
-        "example": "Andrew Tate calls himself the Top G, but is he really?"
-    },
-    "omega male grindset": {
-        "definition": "The underdog grindset of quiet mogging and self-improvement.",
-        "example": "Bro's been on that omega male grindset—silent but deadly."
-    },
-    "high key": {
-        "definition": "Same as 'highkey,' emphasizing that something is obvious or undeniable.",
-        "example": "High key, Livee Dunn mogs Ice Spice in terms of pure GYATT."
-    },
-    "low key": {
-        "definition": "Same as 'lowkey,' emphasizing subtlety.",
-        "example": "Low key, that Subway Surfer run was impressive."
-    },
-    "no cap": {
-        "definition": "Gen Z slang for 'no lie,' used to emphasize honesty.",
-        "example": "No cap, that Grimace shake almost took me out."
-    },
-    "fanum tax": {
-        "definition": "A chaotic tax imposed on the vibes, originating from streamer culture.",
-        "example": "Bro forgot to pay the fanum tax and got ratio'd."
-    },
-    "kai cenat": {
-        "definition": "A high-energy streamer who mogs with rizz and chaos.",
-        "example": "Kai Cenat brought the sigma energy to Twitch and took over."
-    },
-    "grimace shake": {
-        "definition": "A cursed drink that became a chaotic meme, symbolizing doom and joy.",
-        "example": "I drank the Grimace shake and saw sussy bakas everywhere."
-    },
-    "sussy baka": {
-        "definition": "A playful way to call someone suspicious and silly.",
-        "example": "You didn't vent? Stop acting like a sussy baka."
-    },
-    "subway surfers": {
-        "definition": "The game mogging Gen Z downtime with endless running chaos.",
-        "example": "I played Subway Surfers during the meeting—pure skibidi grindset."
-    },
-}
+[
+  {
+    "id": 1,
+    "name": "Abonono Schimpazinono",
+    "body": "Abonono... Schimpazinono... Uu aa uu aa!"
+  },
+  {
+    "id": 2,
+    "name": "Admin Abuse",
+    "body": "/kill @all. Banned. Get banned kid."
+  },
+  {
+    "id": 3,
+    "name": "Admin Lucky Block",
+    "body": "Admin joined the game. Oof!"
+  },
+  {
+    "id": 4,
+    "name": "Agarrini La Palini",
+    "body": "Agarrini... La Palini... Mamma mia!"
+  },
+  {
+    "id": 5,
+    "name": "Alessio",
+    "body": "Alessio! Alessio! Dove sei?"
+  },
+  {
+    "id": 6,
+    "name": "Anpali Babel",
+    "body": "Anpali babel... anpali babel..."
+  },
+  {
+    "id": 7,
+    "name": "Antonio",
+    "body": "Antonio... Antonio! Per favore!"
+  },
+  {
+    "id": 8,
+    "name": "Aquanaut",
+    "body": "Under the water... glub glub glub."
+  },
+  {
+    "id": 9,
+    "name": "Avocadini Antilopini",
+    "body": "Avocadini... Antilopini..."
+  },
+  {
+    "id": 10,
+    "name": "Avocadini Guffo",
+    "body": "Guffo... Avocadini... Guffo..."
+  },
+  {
+    "id": 11,
+    "name": "Ay Mi Gatito",
+    "body": "Ay mi gatito, ¡miau! ¡miau! Ay mi gatito, ¡miau! ¡miau!"
+  },
+  {
+    "id": 12,
+    "name": "Ballerina Cappuccina",
+    "body": "La la la... Cappuccina..."
+  },
+  {
+    "id": 13,
+    "name": "Ballerina Peppermintina",
+    "body": "Spin spin spin... Peppermintina..."
+  },
+  {
+    "id": 14,
+    "name": "Bambini Crostini",
+    "body": "Bambini... Crostini... Mmm crunchy."
+  },
+  {
+    "id": 15,
+    "name": "Bambu Bambu Sahur",
+    "body": "SAHUR! SAHUR! BAMBU BAMBU SAHUUUR!"
+  },
+  {
+    "id": 16,
+    "name": "Bananita Dolphinita",
+    "body": "Eheheh... Bananita... Eheheh..."
+  },
+  {
+    "id": 17,
+    "name": "Bandito Axolito",
+    "body": "Hola amigos... Axolito Bandito!"
+  },
+  {
+    "id": 18,
+    "name": "Bandito Bobritto",
+    "body": "Bobritto! Bandito! Ándale!"
+  },
+  {
+    "id": 19,
+    "name": "Belula Beluga",
+    "body": "Belula... Beluga... *suara sonar*"
+  },
+  {
+    "id": 20,
+    "name": "Bicicleteira",
+    "body": "Kring kring! Bicicleteira! Minggir!"
+  },
+  {
+    "id": 21,
+    "name": "Blackhole Goat",
+    "body": "Mbeeee... *suara sedotan vakum*"
+  },
+  {
+    "id": 22,
+    "name": "Boatito Auratito",
+    "body": "Toot toot! Boatito!"
+  },
+  {
+    "id": 23,
+    "name": "Bobrito Bandito",
+    "body": "Soy Bobrito... El Bandito..."
+  },
+  {
+    "id": 24,
+    "name": "Boneca Ambalabu",
+    "body": "Ambalabu... Ambalabu... Anak is death."
+  },
+  {
+    "id": 25,
+    "name": "Brainrot God Lucky Block",
+    "body": "WHAT IS THAT?! OH MY GOD!"
+  },
+  {
+    "id": 26,
+    "name": "Brainrots",
+    "body": "Brainrot... brainrot... skibidi..."
+  },
+  {
+    "id": 27,
+    "name": "Brasilini Berimbini",
+    "body": "Brasilini! Berimbini! Samba!"
+  },
+  {
+    "id": 28,
+    "name": "Brr Brr Patapim",
+    "body": "Brr brr patapim. Brr brr patapum. Brr brr patapim, patapum, patapim."
+  },
+  {
+    "id": 29,
+    "name": "Brr es teh Patipum",
+    "body": "Brr es teh... Patipum. Seger bener."
+  },
+  {
+    "id": 30,
+    "name": "Brri Brri Bicus Dicus Bombicus",
+    "body": "Brri brri bicus... dicus... bombicus! Magic!"
+  },
+  {
+    "id": 31,
+    "name": "Buho de Noelo",
+    "body": "Hoo hoo... Feliz Navidad... Hoo hoo."
+  },
+  {
+    "id": 32,
+    "name": "Bunito Bunito Spinito",
+    "body": "Bunito bunito... Spinito!"
+  },
+  {
+    "id": 33,
+    "name": "Bunnyman",
+    "body": "Hop hop hop... I am the Bunnyman."
+  },
+  {
+    "id": 34,
+    "name": "Burbaloni Loliloli",
+    "body": "Loli loli loli... Burbaloni..."
+  },
+  {
+    "id": 35,
+    "name": "Burguro And Fryuro",
+    "body": "Burguro... Fryuro... Yummy."
+  },
+  {
+    "id": 36,
+    "name": "Burrito Bandito",
+    "body": "I am the Burrito Bandito!"
+  },
+  {
+    "id": 37,
+    "name": "Cacto Hipopotamo",
+    "body": "Cacto... Hipopotamo... Aaaaah."
+  },
+  {
+    "id": 38,
+    "name": "Capi Taco",
+    "body": "Ok I pull up. Capi Taco."
+  },
+  {
+    "id": 39,
+    "name": "Capitano Moby",
+    "body": "Ahoy! Capitano Moby! Dick!"
+  },
+  {
+    "id": 40,
+    "name": "Cappuccino Assassino",
+    "body": "Cappuccino... Assassino... Shhh."
+  },
+  {
+    "id": 41,
+    "name": "Cappuccino Clownino",
+    "body": "Honk honk! Cappuccino Clownino!"
+  },
+  {
+    "id": 42,
+    "name": "Carrotini Brainini",
+    "body": "Carrotini... Brainini... Crunch."
+  },
+  {
+    "id": 43,
+    "name": "Cavallo Virtuoso",
+    "body": "Cavallo... Virtuoso... *Opera singing*"
+  },
+  {
+    "id": 44,
+    "name": "Cerberus",
+    "body": "Woof woof woof! Cerberus!"
+  },
+  {
+    "id": 45,
+    "name": "Chef Crabracadabra",
+    "body": "Crabracadabra! It's cooked!"
+  },
+  {
+    "id": 46,
+    "name": "Chicleteira Bicicleteira",
+    "body": "Chew chew... Bicicleteira..."
+  },
+  {
+    "id": 47,
+    "name": "Chicleteira Noelteira",
+    "body": "Jingle bells... Chicleteira..."
+  },
+  {
+    "id": 48,
+    "name": "Chillin Chili",
+    "body": "I'm just chillin'... Chili."
+  },
+  {
+    "id": 49,
+    "name": "Chimnino",
+    "body": "Santa? Chimnino... Ho ho ho."
+  },
+  {
+    "id": 50,
+    "name": "Chimpanzini Bananini",
+    "body": "Uu aa uu aa! Bananini!"
+  },
+  {
+    "id": 51,
+    "name": "Chrismasmamat",
+    "body": "Merry Christmas Pak Rahmat! Chrismasmamat!"
+  },
+  {
+    "id": 52,
+    "name": "Cocoa Assassino",
+    "body": "Hot cocoa... Assassino..."
+  },
+  {
+    "id": 53,
+    "name": "Cocofanto Elefanto",
+    "body": "Pawooo! Cocofanto!"
+  },
+  {
+    "id": 54,
+    "name": "Cocosini Mama",
+    "body": "Cocosini... Mama... Coconut!"
+  },
+  {
+    "id": 55,
+    "name": "Coffin Tung Tung Tung Sahur",
+    "body": "Tung tung tung! Sahur! *Coffin dance melody*"
+  },
+  {
+    "id": 56,
+    "name": "Cooki and Milki",
+    "body": "Cooki... Milki... Dunk it!"
+  },
+  {
+    "id": 57,
+    "name": "Corn Corn Corn Sahur",
+    "body": "JAGUNG! JAGUNG! SAHUR JAGUNG!"
+  },
+  {
+    "id": 58,
+    "name": "Developini Braziliaspidini",
+    "body": "Developini... Braziliaspidini... Code code."
+  },
+  {
+    "id": 59,
+    "name": "Doi Doi Do",
+    "body": "Doi doi do... Doi doi do..."
+  },
+  {
+    "id": 60,
+    "name": "Donkeyturbo Express",
+    "body": "Hee-haw! Turbo mode! Vroom!"
+  },
+  {
+    "id": 61,
+    "name": "Dragon Gingerini",
+    "body": "Roar! Gingerini! Spicy!"
+  },
+  {
+    "id": 62,
+    "name": "Dragoni Canneloni",
+    "body": "Dragoni... Canneloni... Pasta fire!"
+  },
+  {
+    "id": 63,
+    "name": "Dug Dug Dug Bedug",
+    "body": "DUG DUG DUG! SAHUR! DUG DUG DUG!"
+  },
+  {
+    "id": 64,
+    "name": "Extinct Ballerina",
+    "body": "Creepy music box... Extinct..."
+  },
+  {
+    "id": 65,
+    "name": "Extinct Matteo",
+    "body": "Matteo... is gone... Extinct."
+  },
+  {
+    "id": 66,
+    "name": "Festive 67",
+    "body": "Happy New Year! Festive 67!"
+  },
+  {
+    "id": 67,
+    "name": "Festive Lucky Block",
+    "body": "Merry Christmas! Open me!"
+  },
+  {
+    "id": 68,
+    "name": "Frankentteo",
+    "body": "It's alive! Frankentteo!"
+  },
+  {
+    "id": 69,
+    "name": "Frigo Camelo",
+    "body": "Brrr... Frigo... Camelo..."
+  },
+  {
+    "id": 70,
+    "name": "Frogatto Piratto",
+    "body": "Ribbit! Arrr! Frogatto Piratto!"
+  },
+  {
+    "id": 71,
+    "name": "Frogo Elfo",
+    "body": "Ribbit... Elfo... Santa's helper."
+  },
+  {
+    "id": 72,
+    "name": "Gangangzelli Trulala",
+    "body": "Gangangzelli... Trulala... Trulala..."
+  },
+  {
+    "id": 73,
+    "name": "Gangster Footera",
+    "body": "Footera... Gangster... Walk walk walk."
+  },
+  {
+    "id": 74,
+    "name": "Garamarama dan Madungdung",
+    "body": "Garamarama... Madungdung... Pantun!"
+  },
+  {
+    "id": 75,
+    "name": "Gattatino Neonino",
+    "body": "Miau... Neonino... Cyberpunk cat."
+  },
+  {
+    "id": 76,
+    "name": "Gattito Tacoto",
+    "body": "Gattito... Tacoto... Miau crunch."
+  },
+  {
+    "id": 77,
+    "name": "Giftini Spyderini",
+    "body": "Surprise! Spyderini! Hisss."
+  },
+  {
+    "id": 78,
+    "name": "Ginger Cisterna",
+    "body": "Beep beep! Ginger Cisterna backing up!"
+  },
+  {
+    "id": 79,
+    "name": "Ginger Gerat",
+    "body": "Ginger... Gerat... Gingerbread man run!"
+  },
+  {
+    "id": 80,
+    "name": "Giraffa Celeste",
+    "body": "Giraffa... Celeste... High in the sky."
+  },
+  {
+    "id": 81,
+    "name": "Gold Elf",
+    "body": "Gold! Gold! I'm a Gold Elf!"
+  },
+  {
+    "id": 82,
+    "name": "Graipuss Medusi",
+    "body": "Hiss... Graipuss... Medusi... Don't look!"
+  },
+  {
+    "id": 83,
+    "name": "Guerriro Digitale",
+    "body": "Guerriro... Digitale... *8-bit sounds*"
+  },
+  {
+    "id": 84,
+    "name": "Headless Horseman",
+    "body": "Where is my head? *Evil laugh*"
+  },
+  {
+    "id": 85,
+    "name": "Ice Dragon",
+    "body": "Roar! Freeze! Ice Dragon!"
+  },
+  {
+    "id": 86,
+    "name": "Jacko Jack Jack",
+    "body": "Jacko jack jack! Jacko jack jack!"
+  },
+  {
+    "id": 87,
+    "name": "Jackorilla",
+    "body": "Ooo ooo aaa aaa! Jackorilla!"
+  },
+  {
+    "id": 88,
+    "name": "Jingle Jingle Sahur",
+    "body": "Jingle bells, Jingle bells, SAHUR ALL THE WAY!"
+  },
+  {
+    "id": 89,
+    "name": "Job Job Job Sahur",
+    "body": "Kerja kerja kerja... tapi SAHUR dulu!"
+  },
+  {
+    "id": 90,
+    "name": "John Pork",
+    "body": "*Phone Ringing* Hello? It's John Pork."
+  },
+  {
+    "id": 91,
+    "name": "Jolly Jolly Sahur",
+    "body": "Ho ho ho! Jolly jolly SAHUR!"
+  },
+  {
+    "id": 92,
+    "name": "Karker Sahur",
+    "body": "Kukuruyuk! Sahur! Karker sahur!"
+  },
+  {
+    "id": 93,
+    "name": "Karkerkar Kurkur",
+    "body": "Karkerkar... Kurkur... Gargle gargle."
+  },
+  {
+    "id": 94,
+    "name": "Ketchuru and Musturu",
+    "body": "Ketchuru... Musturu... Sauce splash!"
+  },
+  {
+    "id": 95,
+    "name": "Kings Coleslaw",
+    "body": "I am the King... of Coleslaw!"
+  },
+  {
+    "id": 96,
+    "name": "Krupuk Pagi Pagi",
+    "body": "Krupuk! Krupuk! Pagi pagi makan krupuk!"
+  },
+  {
+    "id": 97,
+    "name": "La Casa Boo",
+    "body": "Boo! La Casa Boo! Scared you?"
+  },
+  {
+    "id": 98,
+    "name": "La Extinct Grande",
+    "body": "Rawr! La Extinct Grande! Dino stomp."
+  },
+  {
+    "id": 99,
+    "name": "La Ginger Sekolah",
+    "body": "School time! La Ginger Sekolah!"
+  },
+  {
+    "id": 100,
+    "name": "La Grande Combinasion",
+    "body": "Combinasion... La Grande... Everything everywhere."
+  },
+  {
+    "id": 101,
+    "name": "La Jolly Grande",
+    "body": "Fa la la la! La Jolly Grande!"
+  },
+  {
+    "id": 102,
+    "name": "La Secret Combinasion",
+    "body": "Shhh... It's a secret... Combinasion."
+  },
+  {
+    "id": 103,
+    "name": "La Supreme Combinasion",
+    "body": "Supreme! Combinasion! The ultimate!"
+  },
+  {
+    "id": 104,
+    "name": "La Vacca Jacko Linterino",
+    "body": "Moo... Jacko Linterino... Moo."
+  },
+  {
+    "id": 105,
+    "name": "Las Capuchinas",
+    "body": "Hola chicas... Las Capuchinas... Coffee time."
+  },
+  {
+    "id": 106,
+    "name": "Lerulerulerule",
+    "body": "Lerulerulerule lerulerulerule lerulerulerule!"
+  },
+  {
+    "id": 107,
+    "name": "Lirili Larila",
+    "body": "Lirili... Larila... Sing along."
+  },
+  {
+    "id": 108,
+    "name": "List List List Sahur",
+    "body": "List sahur: Nasi, Ayam, Telur... SAHUR!"
+  },
+  {
+    "id": 109,
+    "name": "Los 25",
+    "body": "Veinticinco! Los 25! Countdown!"
+  },
+  {
+    "id": 110,
+    "name": "Los Combinasionas",
+    "body": "Uno dos tres... Los Combinasionas!"
+  },
+  {
+    "id": 111,
+    "name": "Los Hotspotsitos",
+    "body": "Connect... disconnect... Los Hotspotsitos."
+  },
+  {
+    "id": 112,
+    "name": "Los Jobcitos",
+    "body": "Work work work... Los Jobcitos."
+  },
+  {
+    "id": 113,
+    "name": "Los Jolly Combinasionas",
+    "body": "Merry Mix! Los Jolly Combinasionas!"
+  },
+  {
+    "id": 114,
+    "name": "Los Lucky Blocks",
+    "body": "Lucky! Lucky! Los Lucky Blocks!"
+  },
+  {
+    "id": 115,
+    "name": "Los Mobilis",
+    "body": "Beep beep! Los Mobilis! Traffic jam."
+  },
+  {
+    "id": 116,
+    "name": "Los Orcalitos",
+    "body": "Splash! Los Orcalitos! Killer whale."
+  },
+  {
+    "id": 117,
+    "name": "Los Spooky Combinasionas",
+    "body": "Spooky scary skeletons... Los Combinasionas."
+  },
+  {
+    "id": 118,
+    "name": "Los Tungtungtungcitos",
+    "body": "Tung tung tung! Despacito? No, Tungtungtungcitos!"
+  },
+  {
+    "id": 119,
+    "name": "Lucky Blocks",
+    "body": "Question mark? Lucky Blocks! Break it!"
+  },
+  {
+    "id": 120,
+    "name": "Magi Ribbitini",
+    "body": "Abracadabra! Ribbitini! *Frog sounds*"
+  },
+  {
+    "id": 121,
+    "name": "Malame Amarale",
+    "body": "Malame... Amarale... Malame..."
+  },
+  {
+    "id": 122,
+    "name": "Mangolini Parrocini",
+    "body": "Squawk! Mangolini! Mango! Parrocini!"
+  },
+  {
+    "id": 123,
+    "name": "Mariachi Corazoni",
+    "body": "Ay ay ay! Mariachi Corazoni! *Guitar strum*"
+  },
+  {
+    "id": 124,
+    "name": "Matteo Tipi Topi Taco",
+    "body": "Matteo... Tipi Topi... Taco!"
+  },
+  {
+    "id": 125,
+    "name": "Meowl",
+    "body": "Miau... Hoo... Meowl. What am I?"
+  },
+  {
+    "id": 126,
+    "name": "Mieteteira Bicicleteira",
+    "body": "Mieteteira... Bicicleteira... Pedal fast!"
+  },
+  {
+    "id": 127,
+    "name": "Money Money Puggy",
+    "body": "Money money money! Puggy! Bark bark!"
+  },
+  {
+    "id": 128,
+    "name": "Money Money Reindeer",
+    "body": "Rich Reindeer! Money money money!"
+  },
+  {
+    "id": 129,
+    "name": "Mummio Rappito",
+    "body": "Yo yo yo! Mummio Rappito in the house!"
+  },
+  {
+    "id": 130,
+    "name": "Mummy Ambalabu",
+    "body": "Ambalabu... Mummy... Ancient Ambalabu."
+  },
+  {
+    "id": 131,
+    "name": "Naughty Naughty",
+    "body": "Naughty naughty! No gifts for you!"
+  },
+  {
+    "id": 132,
+    "name": "Noo La Polizia",
+    "body": "Noo! La Polizia! Run! Wee woo wee woo!"
+  },
+  {
+    "id": 133,
+    "name": "Noo my Present",
+    "body": "Noo! My present! It's gone! Waaa!"
+  },
+  {
+    "id": 134,
+    "name": "Noo my examine",
+    "body": "Noo! My examine! FAILED!"
+  },
+  {
+    "id": 135,
+    "name": "Noobini Pizzanini",
+    "body": "Oof! Pizza! Noobini Pizzanini!"
+  },
+  {
+    "id": 136,
+    "name": "Noobini Santanini",
+    "body": "Ho ho... Oof! Noobini Santanini."
+  },
+  {
+    "id": 137,
+    "name": "Orangutini Ananasini",
+    "body": "Ouk ouk! Ananasini! Pineapple!"
+  },
+  {
+    "id": 138,
+    "name": "Orcalarita Orcali",
+    "body": "La la la... Orcalarita... Orcali..."
+  },
+  {
+    "id": 139,
+    "name": "Orcalero Orcala",
+    "body": "Orcalero... Orcala... Sea world."
+  },
+  {
+    "id": 140,
+    "name": "Pakrahmatmamat",
+    "body": "Pak Rahmat! Pak Rahmat! Mamat!"
+  },
+  {
+    "id": 141,
+    "name": "Pakrahmatmatina",
+    "body": "Bu Rahmat? Pakrahmatmatina!"
+  },
+  {
+    "id": 142,
+    "name": "Pandaccini Bananini",
+    "body": "Panda... Cappuccino... Banana... Pandaccini!"
+  },
+  {
+    "id": 143,
+    "name": "Pandanini Frostini",
+    "body": "Brrr... Panda... Frostini... So cold."
+  },
+  {
+    "id": 144,
+    "name": "Penguin Tree",
+    "body": "Penguin... Tree... Standing still."
+  },
+  {
+    "id": 145,
+    "name": "Penguino Cocosino",
+    "body": "Waddle waddle... Penguino... Cocosino..."
+  },
+  {
+    "id": 146,
+    "name": "Perochello Lemonchello",
+    "body": "Perochello... Lemonchello... Sour!"
+  },
+  {
+    "id": 147,
+    "name": "Piccionetta Macchina",
+    "body": "Coo coo! Vroom! Piccionetta Macchina!"
+  },
+  {
+    "id": 148,
+    "name": "Pinealotto Fruttarino",
+    "body": "Pineapple... Fruttarino... Pinealotto!"
+  },
+  {
+    "id": 149,
+    "name": "Pipi Avocado",
+    "body": "Pipi... Avocado... Squish."
+  },
+  {
+    "id": 150,
+    "name": "Pipi Corni",
+    "body": "Pipi... Corni... Pop pop."
+  },
+  {
+    "id": 151,
+    "name": "Pipi Kiwi",
+    "body": "Pipi... Kiwi... Fuzzy."
+  },
+  {
+    "id": 152,
+    "name": "Pipi Watermelon",
+    "body": "Pipi... Watermelon... Slurp."
+  },
+  {
+    "id": 153,
+    "name": "Pot Pumpkin",
+    "body": "Pot... Pumpkin... Plant me."
+  },
+  {
+    "id": 154,
+    "name": "Puffaball",
+    "body": "Puff! I'm a ball! Puffaball!"
+  },
+  {
+    "id": 155,
+    "name": "Pumpkini Spyderini",
+    "body": "Pumpkini... Spyderini... Crawl crawl."
+  },
+  {
+    "id": 156,
+    "name": "Raccooni Jandelini",
+    "body": "Trash panda! Raccooni Jandelini!"
+  },
+  {
+    "id": 157,
+    "name": "Reindeer Tralala",
+    "body": "Tralala! Reindeer! Flying high!"
+  },
+  {
+    "id": 158,
+    "name": "Reinito Sleighito",
+    "body": "Sleigh bells ring... Reinito Sleighito."
+  },
+  {
+    "id": 159,
+    "name": "Rocco Disco",
+    "body": "Disco time! Rocco Disco! Dance!"
+  },
+  {
+    "id": 160,
+    "name": "Salamino Penguino",
+    "body": "Salamino... Penguino... Sandwich?"
+  },
+  {
+    "id": 161,
+    "name": "Sammyni Spyderini",
+    "body": "Sammy... Spyderini... Web spin."
+  },
+  {
+    "id": 162,
+    "name": "Santa Hotspot",
+    "body": "Wifi password? Santa Hotspot."
+  },
+  {
+    "id": 163,
+    "name": "Santteo",
+    "body": "Ho ho ho! It's me, Santteo!"
+  },
+  {
+    "id": 164,
+    "name": "Sealo Regalo",
+    "body": "Arf arf! Sealo Regalo! My present!"
+  },
+  {
+    "id": 165,
+    "name": "Shimpanzini Bananini",
+    "body": "Ooh ooh aah aah! Bananini!"
+  },
+  {
+    "id": 166,
+    "name": "Skibidi Toilet",
+    "body": "Brr skibidi dop dop dop yes yes. Skibidi dip skibidi w w w."
+  },
+  {
+    "id": 167,
+    "name": "Skull Skull Skull",
+    "body": "Skull skull skull! *Bad to the Bone riff*"
+  },
+  {
+    "id": 168,
+    "name": "Smurf Cat",
+    "body": "We live, we love, we lie."
+  },
+  {
+    "id": 169,
+    "name": "Strawberry Elephant",
+    "body": "Strawberry Elephant! Pawoo! So sweet."
+  },
+  {
+    "id": 170,
+    "name": "Swaggy Bros",
+    "body": "Yo bro! Swaggy! Dap me up."
+  },
+  {
+    "id": 171,
+    "name": "Ta Ta Ta Ta Sahur",
+    "body": "TA TA TA TA! SAHUR! TA TA TA TA!"
+  },
+  {
+    "id": 172,
+    "name": "Taco Lucky Block",
+    "body": "It's raining tacos! From out of the sky!"
+  },
+  {
+    "id": 173,
+    "name": "Talpa di Ferro",
+    "body": "Dig dig dig... Talpa di Ferro... Metal mole."
+  },
+  {
+    "id": 174,
+    "name": "Tartaragno",
+    "body": "Tartaruga... Ragno... Spider-Turtle?"
+  },
+  {
+    "id": 175,
+    "name": "Tartaruga Cisterna",
+    "body": "Slow and steady... Tartaruga Cisterna."
+  },
+  {
+    "id": 176,
+    "name": "Te Te Te Sahur",
+    "body": "TE TE TE! SAHUR! TE TE TE!"
+  },
+  {
+    "id": 177,
+    "name": "Telemorte",
+    "body": "Static noise... Telemorte... You die."
+  },
+  {
+    "id": 178,
+    "name": "Ti Ti Ti Sahur",
+    "body": "TI TI TI! SAHUR! TI TI TI! BANGUN!"
+  },
+  {
+    "id": 179,
+    "name": "Tictac Sahur",
+    "body": "TIK TAK TIK TAK! SAHUR! WAKE UP!"
+  },
+  {
+    "id": 180,
+    "name": "Tipi Topi Taco",
+    "body": "Tipi topi... Taco... Crunch."
+  },
+  {
+    "id": 181,
+    "name": "Tootini Shrimpini",
+    "body": "Toot! Shrimpini! Smelly."
+  },
+  {
+    "id": 182,
+    "name": "Tracoducotulu Delapeladustuz",
+    "body": "Tracoducotulu... Delapeladustuz... *Tongue twister*"
+  },
+  {
+    "id": 183,
+    "name": "Tractoro Dinosauro",
+    "body": "Vroom roar! Tractoro Dinosauro!"
+  },
+  {
+    "id": 184,
+    "name": "Tralalero Tralala",
+    "body": "Tralalero... Tralala... Happy day!"
+  },
+  {
+    "id": 185,
+    "name": "Tralalita Tralala",
+    "body": "La la la... Tralalita... Tralala."
+  },
+  {
+    "id": 186,
+    "name": "Tree Tree Tree Sahur",
+    "body": "POHON POHON POHON! SAHUR!"
+  },
+  {
+    "id": 187,
+    "name": "Tric Trac Baraboom",
+    "body": "Tric trac... Baraboom! Explosion!"
+  },
+  {
+    "id": 188,
+    "name": "Trickolino",
+    "body": "Trick or treat! Trickolino! Magic!"
+  },
+  {
+    "id": 189,
+    "name": "Trippi Troppi",
+    "body": "Clip clop... Trippi Troppi... Stumble."
+  },
+  {
+    "id": 190,
+    "name": "Triplito Tralaleritos",
+    "body": "Trip... lito... Tralaleritos... x3"
+  },
+  {
+    "id": 191,
+    "name": "Trulimero Trulicina",
+    "body": "Trulimero... Trulicina... Music fail."
+  },
+  {
+    "id": 192,
+    "name": "Tuff Toucan",
+    "body": "Tuff! Toucan! Do you even lift?"
+  },
+  {
+    "id": 193,
+    "name": "Tukanno Bananno",
+    "body": "Tukanno... Bananno... Fruit bird."
+  },
+  {
+    "id": 194,
+    "name": "Tung Tung Tung Sahur",
+    "body": "TUNG TUNG TUNG! SAHUR WOI SAHUR!"
+  },
+  {
+    "id": 195,
+    "name": "Unclito Samito",
+    "body": "I want YOU! Unclito Samito!"
+  },
+  {
+    "id": 196,
+    "name": "Urubini Flamenguini",
+    "body": "Urubini... Flamenguini... Ole!"
+  },
+  {
+    "id": 197,
+    "name": "Wombo Rollo",
+    "body": "They see me rollin'... Wombo Rollo..."
+  }
+]
